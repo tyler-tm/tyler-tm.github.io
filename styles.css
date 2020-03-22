@@ -1,0 +1,61 @@
+body {
+  background-color: darkslategrey;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 1px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.project-link {
+  color: white;
+}
+
+a.contact-link {
+  color: #8AA39B;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.linkedin-logo {
+  padding-left: 16px;
+  padding-right: 32px;
+}
+
+.projects {
+  margin-top: 4rem;
+}
+
+.contact {
+  margin-top: 4rem;
+}
